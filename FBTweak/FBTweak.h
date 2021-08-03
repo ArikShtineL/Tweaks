@@ -151,6 +151,11 @@ typedef id FBTweakValue;
  */
 @property (readwrite, nonatomic, nullable) FBTweakValue precisionValue;
 
+/**
+ @abstract Flag that used to block the option of editing from the tweak.
+ */
+@property (readwrite, nonatomic) BOOL editableFromUI;
+
 @end
 
 /**
